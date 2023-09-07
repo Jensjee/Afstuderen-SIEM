@@ -1,0 +1,10 @@
+admin
+login
+administrator
+admin-panel
+ftp
+promotion
+video
+test
+pass
+portal
