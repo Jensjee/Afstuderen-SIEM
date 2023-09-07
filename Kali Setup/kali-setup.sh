@@ -25,10 +25,10 @@ else
 fi
 
 # Cd naar files
-cd /home/jens/Desktop/setup/Afstuderen-SIEM/
+cd Afstuderen-SIEM/
 
-#chmod execute rechten pentest.sh
+# Chmod execute rechten pentest.sh
 chmod +x pentest.sh
 
-#voer testscript uit
+# Voer testscript uit
 ./pentest.sh
