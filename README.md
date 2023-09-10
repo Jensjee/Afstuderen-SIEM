@@ -33,7 +33,39 @@ Stap 2:
 run sudo ./suricata-setup.sh en vul IP-adres in van Wazuh-manager.
 
 Stap 3:
-run sudo ./juice-shop.sh om de OWASP Juice Shop te installeren.
+run de volgende commando's voor installatie Juice Shop in de terminal
+# apt update
+sudo apt -y update
+
+# Installeren van nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# export nvm dir
+export NVM_DIR="$HOME/.nvm"
+
+# Bron .bashrc om nvm beschikbaar te maken
+source ~/.bashrc
+
+# Installeren van Node.js versie 18.16.0
+nvm install v18.16.0
+
+# Controleren van Node.js versie
+node -v
+
+# Installeren van npm
+sudo apt -y install npm
+
+# Klonen van het Juice Shop-repository
+git clone https://github.com/juice-shop/juice-shop.git --depth 1
+
+# Veranderen naar de Juice Shop-directory
+cd juice-shop
+
+# Installeren van afhankelijkheden
+yes | npm install
+
+# Start de Juice Shop
+npm start
 
 ### Installatie Kali Linux:
 

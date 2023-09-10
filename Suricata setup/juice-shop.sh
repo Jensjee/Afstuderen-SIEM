@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# APT update
+# apt update
 sudo apt -y update
 
 # Installeren van nvm
