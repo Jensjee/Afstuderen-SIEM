@@ -6,6 +6,9 @@ sudo apt -y update
 # Installeren van nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
+# export nvm dir
+export NVM_DIR="$HOME/.nvm"
+
 # Bron .bashrc om nvm beschikbaar te maken
 source ~/.bashrc
 
