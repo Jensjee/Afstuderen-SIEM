@@ -44,3 +44,9 @@ curl -so wazuh-agent.deb https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-ag
 
 # Geef een melding weer dat de installatie is voltooid
 echo "Wazuh-agent is geïnstalleerd en geconfigureerd."
+
+# Ossec.conf ophalen voor connectie agent -> manager (Wazuh)
+wget https://raw.githubusercontent.com/Jensjee/Afstuderen-SIEM/main/Suricata%20setup/ossec.conf
+
+# Overschrijf suricata.yaml naar /etc/suricata/
+sudo cp ossec.conf /var/ossec/etc/ossec.conf
