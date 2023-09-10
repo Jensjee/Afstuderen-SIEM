@@ -17,11 +17,15 @@ Suricata: Ubuntu 22.04
 Wazuh: Amazon Linux 2
 
 Installatie Wazuh:
+
 Stap 1: Download OVA van Wazuh: https://packages.wazuh.com/4.x/vm/wazuh-4.5.2.ova
+
 Stap 2: Importeer de OVA in VirtualBox en zet netwerk interface op bridge mode.
+
 Stap 3: Noteer het IP-adres van de server met het commando: ip a
 
 Installatie Suricata:
+
 Stap 1:
 Download suricata-setup.sh en juice-shop.sh uit de map Suricata setup en chmod +x de scripts. (execute rechten)
 
