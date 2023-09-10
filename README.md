@@ -3,6 +3,7 @@
 
 Note:
 Voor Suricata verander suricata.yaml  (nano /etc/suricata/suricata.yaml) in vars -> address-groups -> HOME_NET: "[192.168.2.44/32]" naar IP van server.
+
 En na installatie verander in de ossec.conf (nano /var/ossec/etc/ossec.conf) 
 het IP-adres (ossec_config -> client -> server -> address 192.168.2.25) naar het IP-adres van de Wazuh manager.
 
@@ -22,9 +23,10 @@ Stap 3: Noteer het IP-adres van de server met het commando: ip a
 
 Installatie Suricata:
 Stap 1:
-Download suricata-setup.sh en chmod +x de file. (execute rechten)
-Download juice-shop.sh en chmod +x de file. (execute rechten)
+Download suricata-setup.sh en juice-shop.sh uit de map Suricata setup en chmod +x de scripts. (execute rechten)
 
 Stap 2:
-Run ./suricata-setup.sh en vul IP-adres in van Wazuh-manager.
-Run ./juice-shop.sh.
+run ./suricata-setup.sh en vul IP-adres in van Wazuh-manager.
+
+Stap 3:
+run ./juice-shop.sh om de OWASP Juice Shop te installeren.
