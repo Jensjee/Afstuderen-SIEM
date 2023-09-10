@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# requirements voor pentesh.sh installeren
+sudo apt install -y sshpass gobuster nuclei
+
 # Specificeer de URL van de GitHub-repository
 REPO_URL="https://github.com/Jensjee/Afstuderen-SIEM.git"
 
