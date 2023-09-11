@@ -2,10 +2,9 @@
  Scripts voor het opzetten van Suricata met OWASP Juice Shop, Wazuh en Kali Linux.
 
 Note:
-- Voor Suricata verander de suricata.yaml op de server met Suricata. Locatie: /etc/suricata/suricata.yaml in vars -> address-groups -> HOME_NET: "[192.168.2.44/32]" naar IP van server.
+- Voor Suricata verander de suricata.yaml op de server met Suricata. Locatie: /etc/suricata/suricata.yaml op lijn 18 (vars -> address-groups -> HOME_NET: "[192.168.2.44/32]") naar IP van server.
 
-- En na installatie verander de ossec.conf op de server met Suricata. Locatie: /var/ossec/etc/ossec.conf
-het IP-adres (ossec_config -> client -> server -> address 192.168.2.25) naar het IP-adres van de Wazuh manager.
+- En na installatie verander de ossec.conf op de server met Suricata. Locatie: /var/ossec/etc/ossec.conf op lijn 10 (ossec_config -> client -> server -> address 192.168.2.25) naar het IP-adres van de Wazuh manager.
 
 ![image](https://github.com/Jensjee/Afstuderen-SIEM/assets/16975896/74a05d0f-5c9d-4c41-8310-cb67328ccdb0)
 
