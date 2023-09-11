@@ -1,5 +1,5 @@
 # Afstuderen-SIEM
- Scripts voor het opzetten van Suricata met OWASP Juice Shop, Wazuh en Kali Linux.
+ Scripts voor het opzetten van Suricata met OWASP Juice Shop, Wazuh en Kali Linux. Ook is er een script voor het nabootsen van een pentest. 
 
 Note:
 - Voor Suricata verander de suricata.yaml op de server met Suricata. Locatie: /etc/suricata/suricata.yaml op lijn 18 (vars -> address-groups -> HOME_NET: "[192.168.2.44/32]") naar IP van server.
