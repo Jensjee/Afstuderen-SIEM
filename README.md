@@ -21,7 +21,7 @@ Stap 1: Download OVA van Wazuh: https://packages.wazuh.com/4.x/vm/wazuh-4.5.2.ov
 
 Stap 2: Importeer de OVA in VirtualBox en zet netwerk interface op bridge mode.
 
-Stap 3: Noteer het IP-adres van de Wazuh server met het commando: ip a
+Stap 3: Noteer het IP-adres van de Wazuh server, het IP-adres kan opgehaald worden met het commando: ip a
 
 ### Installatie Suricata:
 
@@ -29,7 +29,7 @@ Stap 1:
 Download suricata-setup.sh en juice-shop.sh uit de map: Suricata setup en sudo chmod +x beide scripts. (execute rechten)
 
 Stap 2:
-run sudo ./suricata-setup.sh en vul IP-adres in van Wazuh-manager.
+run sudo ./suricata-setup.sh en vul IP-adres in van de Wazuh manager.
 
 Stap 3:
 Voer de commando's van juice-shop.sh in de terminal voor het installeren van OWASP Juice Shop, Node.JS en nvm.
