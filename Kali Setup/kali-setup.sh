@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# requirements voor pentesh.sh installeren
+# Requirements voor pentesh.sh installeren
 sudo apt install -y sshpass gobuster nuclei
 
 # Specificeer de URL van de GitHub-repository
