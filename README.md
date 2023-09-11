@@ -21,7 +21,7 @@ Stap 1: Download OVA van Wazuh: https://packages.wazuh.com/4.x/vm/wazuh-4.5.2.ov
 
 Stap 2: Importeer de OVA in VirtualBox en zet netwerk interface op bridge mode.
 
-Stap 3: Noteer het IP-adres van de Wazuh server, het IP-adres kan opgehaald worden met het commando: ip a
+Stap 3: Noteer het IP-adres van de Wazuh server, het IP-adres kan opgehaald worden met het commando: ip a.
 
 ### Installatie Suricata:
 
