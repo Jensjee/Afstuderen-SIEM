@@ -50,3 +50,23 @@ Geef execute rechten: sudo chmod +x kali-setup.sh
 
 Stap 5:
 run sudo ./kali-setup.sh
+
+### Deinstallatie 
+
+#### Wazuh agent 
+Stap 1:
+
+Download remove-wazuh-agent.sh in Uninstall en sudo chmod +x het script.
+
+Stap 2:
+run sudo ./remove-wazuh-agent.sh
+
+#### Juice Shop
+Stap 1:
+Download remove-juiceshop.sh in Uninstall en sudo chmod +x het script.
+
+Stap 2:
+run sudo ./remove-juiceshop.sh
+
+
+
