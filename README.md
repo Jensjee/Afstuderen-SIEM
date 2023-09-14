@@ -51,7 +51,7 @@ Geef execute rechten: sudo chmod +x kali-setup.sh
 Stap 5:
 run sudo ./kali-setup.sh
 
-### Deinstallatie 
+### Deinstallatie: 
 
 #### Wazuh agent 
 Stap 1:
